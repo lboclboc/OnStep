@@ -84,7 +84,7 @@
 #define GUIDE_DISABLE_BACKLASH        OFF //    OFF, Disable backlash takeup during guiding at <= 1X                          Option
 
 // TRACKING BEHAVIOUR -------------------------------------------- see https://onstep.groups.io/g/main/wiki/6-Configuration#TRACKING
-#define TRACK_AUTOSTART               OFF //    OFF, ON Start with tracking enabled.                                          Option
+#define TRACK_AUTOSTART               ON //    OFF, ON Start with tracking enabled.                                          Option
 #define TRACK_REFRACTION_RATE_DEFAULT OFF //    OFF, ON Start w/atmospheric refract. compensation (RA axis/Eq mounts only.)   Option
 #define TRACK_BACKLASH_RATE            25 //     25, n. Where n=2..50 (x sidereal rate) during backlash takeup.               Option
                                           //         Too fast motors stall/gears slam or too slow and sluggish in backlash.
