@@ -10,6 +10,9 @@
 #if PINMAP == Mega2560Alt
   #include "Pins.Mega2560Alt.h"
 #endif
+#if PINMAP == ArduinoNano
+  #include "Pins.ArduinoNano.h"
+#endif
 #if PINMAP == MiniPCB
   #include "Pins.MiniPCB.h"
 #endif
@@ -48,4 +51,7 @@
 #endif
 #if PINMAP == STM32Black
   #include "Pins.STM32B.h"
+#endif
+#if PINMAP == ArduinoNano
+  #include "Pins.ArduinoNano.h"
 #endif
