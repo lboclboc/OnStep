@@ -4,6 +4,9 @@
 #if PINMAP == Classic
   #include "Pins.Classic.h"
 #endif
+#if PINMAP == Unopins
+  #include "Pins.Unopins.h"
+#endif
 #if PINMAP == ClassicShield
   #include "Pins.Classic.h"
 #endif
